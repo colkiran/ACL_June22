@@ -1,0 +1,116 @@
+Strings
+-------
+1. strings are immutable	-	its state cannot be changed once defined
+
+2. strings can be enclosed in - 'this is a sample string'
+								   "this is a sample string"
+
+TypeError: 'str' object does not support item assignment
+---------------------------------------------------------
+in str class we dont have a setter method
+
+
+Data Structures
+---------------
+1. list
+2. Dictionary
+3. Tuple
+4. Set
+
+
+Lists
+-----
+1. list is same as arrays in other technologies
+2. its a collection of hetrogenous data
+3. memory allocation is not contigious
+4. its an ordered collection		-	 created the same way as we construct it
+5. lists are mutable
+6. it is subscriptable
+
+
+Array
+-----
+1. collection of homogenous data
+2. memory allocation is contigious
+
+
+functions to manipulate a list
+------------------------------
+
+'append', 'clear', 'copy', 'count', 'extend', 'index', 
+'insert', 'pop', 'remove', 'reverse', 'sort'
+
+
+Dictionary
+----------
+they are also called as associative arrays
+
+ 0    1    2    3    4
+'a', 'b', 'c', 'd', 'e'
+
+step-2
+
+{0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e'}
+
+0, 1, 2, 3, 4 => keys
+a, b, c, d, e => values
+
+we can user defined keys, but the keys should always be unique
+
+Dictionaries are:
+
+1. unordered collection
+2. mutable
+3. keys in a dictionary is unique
+4. enclosed in {}
+
+
+d = {k1: v1, k2: v2, k3: v3, ....}
+
+
+Functions to manipulate dictionaries
+-------------------------------------
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
+
+Assignment
+----------
+
+1. write a code to create a indentity matrix
+
+2. write a code to create a magic matrix
+
+n = n(n**2 + 1) / 2
+
+matrix = 3 x 3
+
+n = 3
+
+n = 3 * (3 ** 2 + 1) / 2
+  = 3 * (9 + 1)/2
+  = 30 / 2
+  = 15
+
+https://www.youtube.com/watch?v=GYBr8n-_Rq4
+
+3 x  3 => sum of numbers should be 15 (sum of row, sum of col)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
