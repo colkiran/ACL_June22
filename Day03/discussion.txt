@@ -1,0 +1,181 @@
+tuple
+-----
+1. tuples as immutable lists
+2. they are ordered collection
+3. they are subscriptable
+4. they are enclosed in ()
+
+
+sets
+----
+1. sets unordered collections
+2. sets are mutable
+3. sets are not subscriptable
+4. sets are enclosed in {}
+5. elements of a set is always unique
+
+
+Functions
+---------
+use recursive call and write a code
+	
+	a. to find the factorial of a number
+
+	b. to find the fibannoci series.
+
+
+
+def fact(n):
+
+	if n == 1:
+		return 1
+	else:
+		return n * fact(n - 1)
+
+fact(5)					return 120
+
+---------------------------------------
+
+fact(4)					return 24
+
+---------------------------------------
+
+fact(3)					return 6
+
+---------------------------------------
+
+fact(2)					return 2
+
+---------------------------------------
+
+fact(1)					return 1
+
+
+
+---------------------------------------------------------------------------------------
+
+lambdas
+-------
+1. Anonymous functions
+2. single expression
+3. result of expression will be the return value of the lambda function
+
+
+lambda var1, var2, var3...: expression(var1, var2, var3..)
+
+convert the temperature to farenheit
+temp = [25, 30, 18, 12, 36, 40, 48, 27, 20] -> celsius 
+
+
+-----------------------------------------------------------------------------------------
+
+from calendar import month_name
+
+def sortMonth(mnt):
+    months = []
+    for m in list(month_name):
+        months.append(m[0:3].lower())
+    if mnt in months:
+        return months.index(mnt)
+
+print(f"month :{month}")
+res = sorted(month, key=sortMonth)
+print(f"Sorted Months :{res}")
+
+
+-------------------------------------------------------------------------------------------
+
+comprehensions - iteration of a collection (list, dictionary) using lambda syntaxes
+
+
+list comprehension and dictionary comprehension
+-----------------------------------------------
+
+[(280, 345, 250, 410, 320), (310, 225, 180, 265, 385), (230, 260, 350, 150, 198), (175, 375, 450, 340, 230), (120, 180, 280, 250, 150)]
+
+[280, 345, 250, 410, 320, 310, 225, 180, 265, 385, 230, 260, 350, 150, 198, 175, 375, 450, 340, 230, 120, 180, 280, 250, 150]
+
+
+==============================================================================================
+
+scope of a variable
+-------------------
+1. local
+2. global
+3. non local
+
+
+Assignment
+----------
+
+Assignment 1
+
+year=input("Year : ")
+month=input("Month : (1-12) : ")
+day=input("Day (1-31) : ")
+
+2018
+8
+21
+
+out put => 21st of agust 2018
+
+2018
+8
+2
+
+out put => 2nd of agust 2018
+
+-------------------------------------------------------------
+assignment 2
+
+url=input("Enter the url : ") # http://www.python.org # https://www.upworks.com 
+
+
+output  ==>
+domain python
+
+domain upworks
+
+
+--------------------------------------------------------------
+
+assignment 3
+sentence="Sachin is great"
+
+_____________________________________ 
+|										|
+|										|	
+| 	Sachin is great					|
+|____________________________________|
+
+
+
+---------------------------------------------------------------
+assigment 4
+ day=input("Enter the start day : ") # tue or wed or mon
+ coun=input("number of days : ") # 1-31
+
+
+out put--->
+sun mon tue wed thu fri sat
+         1   2   3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
