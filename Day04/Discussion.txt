@@ -1,0 +1,58 @@
+
+write decorator to calculate the total time taken by the function to execute
+
+OOPS
+----
+Object Oriented Programming
+---------------------------
+security 
+--------
+
+Encapsulation - 1
+-------------
+
+abstraction - 2
+-----------
+
+polymorphism - 3
+------------
+
+inheritance - 4
+-----------
+
+ATM
+===
+3. polymorphism
+	a. club class			- push back seat
+	b. glod class			- seatings more comfortable
+	c. platinum class		- recliner 
+	d. premium class		- cluster seating (food is free)
+
+2. abstraction
+
+
+1. encapsulation
+
+
+4. Inheritance
+
+
+---------------------------------------------------------------------------------
+
+arithmatic operators (overload operators)
+--------------------
++ - add
+- - subtract
+* - multiply
+/ - divide
+// - floor divide
+
+
+'Employee' object does not support item assignment
+
+'str' object does not support item assignment
+
+
+
+
+

@@ -1,0 +1,117 @@
+Abstract Class
+--------------
+
+
+Reverse_Camera:
+	
+	def Reverse_gear():
+	pass
+
+	def Turn_Steering():
+	pass	
+
+
+Packages and Modules
+--------------------
+
+1. Module is like library in other technologies, it will have the extension as a python file
+
+2. Any python file can be treated as a module
+
+
+Package
+-------
+
+avoiding naming conflicts
+
+c:\abc\xyz.py
+
+xyz module function is fun()
+
+native code
+-----------
+xyz - fun()
+
+
+from abc.xyz import fun
+
+--------------------------------------------------------
+
+packages is a folders where the modules are stored.
+
+2.x
+---
+package should have a __init__.py file
+
+
+
+3.x 
+---
+its not mandatory...
+
+
+import mymodule
+----------------
+
+1. convert the module into byte code (.py file will get converted into .pyc file) and stored in a folder called __pycache__
+
+2. where should we store the modules and how will a consume file know where the modules are present
+
+3. all modules should be stored in the lib path specified by environment variables
+
+4. compare the date of creation / modification between .py and .pyc file
+
+	python always expects the .pyc file to have the latest date and time compared between .py and .pyc file
+
+
+import mymodule
+from mymodule import myfunction
+from mymodule import myclass
+from mypackage import mymodule
+from mypackage import *
+
+packages are compared with classes 
+
+	__init__ method acts as a constructor
+
+	__init__.py will work like a constructor in a class
+
+
+Exceptions
+----------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

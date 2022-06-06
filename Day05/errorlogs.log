@@ -1,0 +1,4 @@
+2022-06-07 17:49:06,086 : CRITICAL : division by zero : O23Log02.py : 15
+2022-06-07 17:49:06,087 : INFO : Division of the number successfully done..... : O23Log02.py : 26
+2022-06-07 17:50:11,195 : ERROR : unsupported operand type(s) for /: 'int' and 'str' : O23Log02.py : 18
+2022-06-07 17:50:11,195 : INFO : Division of the number successfully done..... : O23Log02.py : 26

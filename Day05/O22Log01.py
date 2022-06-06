@@ -1,0 +1,24 @@
+
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
+
+num = 0
+inv = 1
+
+try:
+    inv = 1 / num
+
+except ZeroDivisionError as z:
+    logging.critical(z)
+
+except TypeError as t:
+    logging.debug(t)
+
+except Exception as e:              # base class of all exceptions
+    logging.warning(e)
+
+else:
+    logging.info(f"Inverse :{inv}")
+finally:
+    logging.info("Division of the number successfully done.....")
